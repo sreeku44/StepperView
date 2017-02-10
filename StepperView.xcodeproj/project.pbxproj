@@ -13,6 +13,7 @@
 		DD17DF2A1E4CE4930041994A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD17DF281E4CE4930041994A /* Main.storyboard */; };
 		DD17DF2C1E4CE4930041994A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD17DF2B1E4CE4930041994A /* Assets.xcassets */; };
 		DD17DF2F1E4CE4930041994A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD17DF2D1E4CE4930041994A /* LaunchScreen.storyboard */; };
+		DD17DF381E4D07370041994A /* StepperView.m in Sources */ = {isa = PBXBuildFile; fileRef = DD17DF371E4D07370041994A /* StepperView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		DD17DF2B1E4CE4930041994A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DD17DF2E1E4CE4930041994A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DD17DF301E4CE4930041994A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DD17DF361E4D07370041994A /* StepperView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StepperView.h; sourceTree = "<group>"; };
+		DD17DF371E4D07370041994A /* StepperView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StepperView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +70,8 @@
 				DD17DF2D1E4CE4930041994A /* LaunchScreen.storyboard */,
 				DD17DF301E4CE4930041994A /* Info.plist */,
 				DD17DF1F1E4CE4930041994A /* Supporting Files */,
+				DD17DF361E4D07370041994A /* StepperView.h */,
+				DD17DF371E4D07370041994A /* StepperView.m */,
 			);
 			path = StepperView;
 			sourceTree = "<group>";
@@ -152,6 +157,7 @@
 			files = (
 				DD17DF271E4CE4930041994A /* ViewController.m in Sources */,
 				DD17DF241E4CE4930041994A /* AppDelegate.m in Sources */,
+				DD17DF381E4D07370041994A /* StepperView.m in Sources */,
 				DD17DF211E4CE4930041994A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -7,8 +7,15 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "StepperView.h"
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController<StepperViewDelegate>
+
+@property(nonatomic, strong) UIView *purpleView;
+
+@property (nonatomic, weak) IBOutlet UILabel *viewLabel;
+
+//@property(nonatomic, strong) UILabel *displayLabel;
 
 
 @end
